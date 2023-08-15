@@ -1,0 +1,112 @@
+body{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('fonts/Inter/Inter-VariableFont_slnt\,wght.ttf') format('truetype'); /* Adjust the path and format as needed */
+    /* You can also provide additional font formats for broader browser support */
+}
+
+.location{
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.temp{
+    font-size: 80px;
+    margin: 0;
+}
+
+.humiditypercent, .windpercent{
+    font-weight: 500;
+    font-size: 25px;
+    margin: 0;
+}
+.windvalue,.humidityvalue{
+    font-weight: 500;
+    font-size: 18px;
+    margin: 0;
+}
+
+
+
+
+.weatherappcard{
+    background: linear-gradient(180deg, #028DB9 47.92%, #00B4CC 98.96%);
+    border-radius: 10px;
+    height: 100vh;
+    text-align: center;
+    width: 432px;
+}
+
+.searchdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.search{
+width: 302px;
+height: 45px;
+flex-shrink: 0;
+    border-radius: 30px;
+border: 1px solid #FFF;
+background: rgba(255, 255, 255, 0.00);
+padding-left: 10px;
+}
+
+.search::placeholder{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    opacity: 1;
+}
+
+.searchicon{
+    width: 27px;
+height: 32px;
+flex-shrink: 0;
+}
+.datetime{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-right: 20px;
+
+}
+.details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-right: 20px;
+
+}
+
+.col img{
+    margin-right: 20px;
+}
+
+.footer{
+
+}
+
+.footertext{
+    margin: 0;
+}
