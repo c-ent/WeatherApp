@@ -55,7 +55,7 @@ body{
 .weatherappcard{
     background: linear-gradient(180deg, #028DB9 47.92%, #00B4CC 98.96%);
     border-radius: 10px;
-    height: 100vh;
+    height: 100%;
     text-align: center;
     width: 432px;
 }
@@ -124,3 +124,18 @@ flex-shrink: 0;
 .footertext{
     margin: 0;
 }
+
+@media only screen and (max-width: 360px) {
+    .location{
+        font-size: 40px;
+    }
+    .col img{
+       width: 55px;
+    }
+
+    .details{
+        margin-bottom: 20px;
+        margin-top:50px;
+    }
+    
+  }
