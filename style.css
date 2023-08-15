@@ -1,5 +1,6 @@
 body{
     display: flex;
+    visibility: visible !important;
     color: white;
     justify-content: center;
     align-items: center;
