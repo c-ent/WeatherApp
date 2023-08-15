@@ -1,3 +1,5 @@
-function heart(){
-    alert("I love you");
-}
+function labyufnc(){
+    document.getElementById("loveid").style.display = "block";
+  
+  
+  }
